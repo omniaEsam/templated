@@ -1,0 +1,257 @@
+body{
+    margin: 0 auto;
+    background-image: url("photo1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+   
+}
+/*start navbar */
+.navbar h1 a{
+    color: white;
+    font-size: 70px;
+    font-family: Barlow;
+}
+.navbar h3 a{
+    color:gainsboro;
+    font-size: 15px;
+    font-weight:lighter ;
+    font-family:Roboto ;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    padding-top: 70px;
+    line-height: 5px;
+}
+/* end navbar */
+/*start first section*/
+.contianer{
+    width: 1177px;
+    height: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left:10px ;
+}
+.img{
+ padding-top: 15px ;
+ height: 445px;
+}
+.header{
+    background-color: white;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.header hr{
+    width: 10%;
+}
+.header h1{
+    font-size: 30px;
+    font-family: Barlow;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.829);
+
+}
+.header h3{
+    font-family:Roboto ;
+    font-size: 15px;
+    font-weight: lighter;
+    color:rgba(128, 128, 128, 0.596);
+}
+.pargraph{
+background-color:whitesmoke;
+height: 345px;
+text-align: justify;
+padding: 50px ;
+}
+.pargraph p{
+    margin: 30px;
+    color:rgba(128, 128, 128, 0.596);
+    line-height: 1.5em;
+    font-size: 18px;
+}
+/*end first section */
+/*start second section*/
+.parent-section{
+    width: 1177px;
+    background-color: rgb(20, 20, 20);
+    margin-left:81px ;
+}
+.parent{
+   padding-top: 85px; 
+   padding-bottom: 85px;
+}
+.parent .adress{
+    width: 82.5%;
+   height: 90px;
+   background-color:black;
+   padding: 30px;
+   margin-left:79px;
+}
+.parent .adress hr{
+    width: 10%;
+}
+.parent .adress h1{
+    color:white;
+    font-family: Barlow ;
+}
+.parent .adress h3{
+    font-family:Roboto ;
+    font-size: 15px;
+    font-weight: lighter;
+    color:rgba(128, 128, 128, 0.596);
+
+}
+.parent .imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parent .imgs img{
+    width: 510px;
+    height: 250px;
+   
+    
+}
+/* end second section*/
+/* start third section*/
+.img1-block1{
+    display: flex;
+    height:450px ;
+    justify-content: center;
+    margin-left: -10px;
+}
+.sub_container1 {
+    width:1177px;
+    display:flex;
+}
+.img1-block1 .img1 {
+    width: 50%;
+}
+ .img1-block1 .img1 img{
+    height: 450px;
+}
+.img1-block1 .block1{
+    background-color:whitesmoke ;
+    height: 450px;
+    width: 50%;
+}
+.img1-block1 .block1 h2{
+    color:rgba(0, 0, 0, 0.829);
+    font-family: Barlow;
+    line-height: 1.5em;
+    text-align: left;
+    padding-top: 105px  ;
+    padding-left: 85px;
+    
+}
+.img1-block1 .block1 p{
+    padding-left: 85px;
+    padding-bottom: 105px;
+    padding-right: 85px;
+    color:rgba(128, 128, 128, 0.596) ;
+    text-align: justify;
+    line-height: 1.3em;
+}
+/*end third section*/
+/* start fourth section*/
+.img2-block2{
+    display: flex;
+    height:450px ;
+    justify-content: center;
+    margin-left: -10px;
+}
+.sub-container2{
+    width:1177px;
+    display:flex;
+}
+.img2-block2 .block2{
+    background-color: rgb(20, 20, 20);
+    height: 450px;
+    width: 50%;
+}
+.img2-block2 .block2 h2{
+    color:white;
+    font-family: Barlow;
+    line-height: 1.3em;
+    text-align: right;
+    padding-top: 105px ;
+    padding-right: 85px;
+}
+.img2-block2 .block2 p{
+    color:rgba(128, 128, 128, 0.596) ;
+    text-align: justify;
+    line-height: 1.5em;
+    padding-left: 85px;
+    padding-bottom: 105px;
+    padding-right: 85px;
+}
+.img2-block2 .img2{
+    width: 50%;
+}
+.img2-block2 .img2 img{
+    height: 450px;
+}
+/* end fourth section*/
+/* start fifth section*/
+.img3-block3{
+    display: flex;
+    height:450px ;
+    justify-content: center;
+    padding-bottom: 85px;
+    margin-left: -10px;
+}
+.sub-container3{
+    width:1177px;
+    display:flex;
+}
+.img3-block3 .img3{
+    width: 50%;
+}
+.img3-block3 .img3 img{
+    height: 450px;
+}
+.img3-block3 .block3{
+    background-color:whitesmoke;
+    height: 450px;
+    width: 50%;
+}
+.img3-block3 .block3 h2{
+    color:rgba(0, 0, 0, 0.829);
+    font-family: Barlow;
+    line-height: 1.3em;
+    text-align: left;
+    padding-top: 105px  ;
+    padding-left: 85px;
+}
+.img3-block3 .block3 p{
+    color:rgba(128, 128, 128, 0.596) ;
+    text-align: justify;
+    line-height: 1.5em;
+    padding-left: 85px;
+    padding-bottom: 105px;
+    padding-right: 85px;
+}
+/* end fifth section*/
+/*start footer */
+.icons{
+    padding-bottom: 30px;
+}
+.icons svg{
+    margin: 20px;
+}
+.end{
+    padding-top: 20px;
+    color:gainsboro;
+}
+.end a{
+    font-size: 15px;
+    font-family: Barlow;
+    color:gainsboro;
+    text-decoration: underline;
+}
+/*end footer */
